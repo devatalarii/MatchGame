@@ -1,0 +1,130 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+
+.score-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c0e3a;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 80px;
+}
+
+.website-logo {
+  height: 40px;
+  width: 150px;
+}
+
+.score-details {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.score-styling {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.count {
+  color: #fec653;
+  font-size: 25px;
+}
+
+.timer-image {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.time {
+  color: #fec653;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tabs-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.images-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.images-tabs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.display-image {
+  width: 57%;
+  margin-bottom: 20px;
+  margin-left: 23px;
+}
+
+.GameOver-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  margin-top: 0px;
+}
+
+.trophy-image {
+  margin-top: 100px;
+  height: 200px;
+  width: 300px;
+}
+
+.scored-gained {
+  color: #ffffff;
+  font-size: 35px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.playAgain-button {
+  background-color: #cf60c8;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 800;
+  padding-right: 8px;
+  margin-top: 0px;
+}
+
+.play-again-image {
+  margin-right: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+}
